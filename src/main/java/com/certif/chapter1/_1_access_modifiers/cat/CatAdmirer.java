@@ -7,7 +7,7 @@ public class CatAdmirer {
         System.out.println(cat.name);
         System.out.println(cat.hasFur);
         System.out.println(cat.hasPaws);
-        //DO NOT COMPILE
+        //DO NOT COMPILE (private)
         //System.out.println(cat.id);
     }
 
