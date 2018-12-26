@@ -8,13 +8,13 @@ public class Lynx extends BigCat {
         BigCat cat = new BigCat();
         System.out.println(cat.name);
         //DO NOT COMPILE
-        //System.out.println(cat.hasFur); //code being accessed by variable rather than by inheritance
+        //System.out.println(cat.hasFur); //code being accessed by variable rather than by inheritance AND from a different package
         //System.out.println(cat.hasPaws); //default and in an other package
         //System.out.println(cat.id); //private
 
         BigCat catLynx = new Lynx();
         //Do not compile
-        //System.out.println(catLynx.hasFur); //code being accessed by variable rather than by inheritance
+        //System.out.println(catLynx.hasFur); //code being accessed by variable rather than by inheritance AND from a different package
 
         Lynx lynx = new Lynx(); //Lynx is a subclass => can access to protected members
         System.out.println(lynx.hasFur); //access by inheritance
