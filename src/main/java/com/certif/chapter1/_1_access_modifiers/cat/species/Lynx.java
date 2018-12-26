@@ -19,5 +19,11 @@ public class Lynx extends BigCat {
         Lynx lynx = new Lynx(); //Lynx is a subclass => can access to protected members
         System.out.println(lynx.hasFur); //access by inheritance
 
+        //System.out.println(hasFur); //hasFur is a no static variable
+
+    }
+
+    public void test(){
+        System.out.println(hasFur);
     }
 }
