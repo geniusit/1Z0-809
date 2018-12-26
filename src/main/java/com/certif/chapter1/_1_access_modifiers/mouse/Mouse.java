@@ -11,5 +11,6 @@ public class Mouse {
         //System.out.println(cat.hasFur);
         //System.out.println(cat.hasPaws);
         //System.out.println(cat.id);
+        //System.out.println(BigCat.age); //Mouse not subclass of BigCat
     }
 }

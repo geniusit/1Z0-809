@@ -6,6 +6,8 @@ public class BigCat {
     boolean hasPaws = true;
     private int id;
 
+    protected static int age = 1;
+
     public static void main(String[] args) {
         BigCat cat = new BigCat();
         System.out.println(cat.name);

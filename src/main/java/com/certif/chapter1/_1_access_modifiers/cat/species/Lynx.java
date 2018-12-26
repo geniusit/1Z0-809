@@ -13,6 +13,8 @@ public class Lynx extends BigCat {
         //System.out.println(cat.id); //private
 
         BigCat catLynx = new Lynx();
+        System.out.println(catLynx.age); //static members - no matter of visibility
+        System.out.println(BigCat.age); //static members - no matter of visibility- it works because Lynx is a child of BigCat
         //Do not compile
         //System.out.println(catLynx.hasFur); //code being accessed by variable rather than by inheritance AND from a different package
 
@@ -20,6 +22,7 @@ public class Lynx extends BigCat {
         System.out.println(lynx.hasFur); //access by inheritance
 
         //System.out.println(hasFur); //hasFur is a no static variable
+
 
     }
 
